@@ -71,7 +71,7 @@ request(url, function(error, response, body) {
     var myJSON = JSON.stringify(jsonArr);
 
     // save JSON file to disk
-    fs.writeFileSync(jsonFilename, JSON.stringify(jsonArr), "utf8");
+    fs.writeFileSync(jsonFilename, JSON.stringify(jsonArr, null, "\t"), "utf8");
   } else {
     console.log("We’ve encountered an error: " + error);
   }
