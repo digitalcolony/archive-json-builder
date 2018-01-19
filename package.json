@@ -1,6 +1,6 @@
 {
   "name": "archive-json-builder",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Create a JSON file of audio files on an Archive.org page.",
   "main": "app.js",
   "scripts": {
@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/digitalcolony/archive-json-builder.git"
   },
-  "keywords": [
-    "web",
-    "scraping",
-    "archive.org"
-  ],
+  "keywords": ["web", "scraping", "archive.org"],
   "author": "Michael Allen Smith",
   "license": "(MIT OR Apache-2.0)",
   "bugs": {
