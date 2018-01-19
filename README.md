@@ -8,8 +8,21 @@ Find a URL on Archive.org that hosts audio files.
 
 EXAMPLE: [https://archive.org/details/neil-rogers-show-soundboard](https://archive.org/details/neil-rogers-show-soundboard)
 
-Add that URL into the the app.js as the url variable. Then run app.js to generate a JSON file that includes filename, duration, mp3 link, and ogg link for each file.
+Pass that URL as a parameter to app.js. The code will scrape `Archive.org` and generate a JSON file that includes filename, duration, mp3 link, and ogg link for each file.
 
 ```javascript
-$ node app.js
+node app.js https://archive.org/details/neil-rogers-show-soundboard
+```
+
+The result will look like this:
+
+```json
+{
+  "name": "Absolutely Correct Sir - Neil Rogers/Old Bridge Dude",
+  "duration": "0:00:02",
+  "mp3":
+    "https://archive.org/download/neil-rogers-show-soundboard/Absolutely-Correct-Sir.mp3",
+  "ogg":
+    "https://archive.org/download/neil-rogers-show-soundboard/Absolutely-Correct-Sir.ogg"
+}
 ```
