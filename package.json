@@ -1,6 +1,6 @@
 {
   "name": "archive-json-builder",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Create a JSON file of audio files on an Archive.org page.",
   "main": "app.js",
   "scripts": {

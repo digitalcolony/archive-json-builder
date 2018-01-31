@@ -76,9 +76,12 @@ if (url !== undefined && url.startsWith("https://archive.org/details/")) {
       var myJSON = JSON.stringify(jsonArr);
 
       // save JSON file to disk
+      var thisJSON =
+        '{   "drops": ' + JSON.stringify(jsonArr, null, "\t") + "}";
       fs.writeFileSync(
         jsonFilename,
-        JSON.stringify(jsonArr, null, "\t"),
+        thisJSON,
+        // JSON.stringify(jsonArr, null, "\t"),
         "utf8"
       );
       console.log("Saving JSON file.");
