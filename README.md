@@ -18,11 +18,31 @@ The result will look like this:
 
 ```json
 {
-  "name": "Absolutely Correct Sir - Neil Rogers/Old Bridge Dude",
-  "duration": "0:00:02",
-  "mp3":
-    "https://archive.org/download/neil-rogers-show-soundboard/Absolutely-Correct-Sir.mp3",
-  "ogg":
-    "https://archive.org/download/neil-rogers-show-soundboard/Absolutely-Correct-Sir.ogg"
+  "files": [
+    {
+      "name": "1 to 12 hour - Boca Britany Somers",
+      "duration": "0:00:03",
+      "mp3":
+        "https://archive.org/download/neil-rogers-show-soundboard/1-to-12-hour.mp3",
+      "ogg":
+        "https://archive.org/download/neil-rogers-show-soundboard/1-to-12-hour.ogg"
+    },
+    {
+      "name": "A Stench of Cow Manure... - Jim Mandich",
+      "duration": "0:00:08",
+      "mp3":
+        "https://archive.org/download/neil-rogers-show-soundboard/A-Stench-of-Cow-Manure.mp3",
+      "ogg":
+        "https://archive.org/download/neil-rogers-show-soundboard/A-Stench-of-Cow-Manure.ogg"
+    },
+    {
+      "name": "Absolutely Correct Sir - Neil Rogers/Old Bridge Dude",
+      "duration": "0:00:02",
+      "mp3":
+        "https://archive.org/download/neil-rogers-show-soundboard/Absolutely-Correct-Sir.mp3",
+      "ogg":
+        "https://archive.org/download/neil-rogers-show-soundboard/Absolutely-Correct-Sir.ogg"
+    }
+  ]
 }
 ```
