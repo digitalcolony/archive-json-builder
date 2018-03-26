@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/digitalcolony/archive-json-builder.git"
   },
-  "keywords": ["web", "scraping", "archive.org"],
+  "keywords": [
+    "web",
+    "scraping",
+    "archive.org"
+  ],
   "author": "Michael Allen Smith",
   "license": "(MIT OR Apache-2.0)",
   "bugs": {
@@ -19,6 +23,6 @@
   "homepage": "https://github.com/digitalcolony/archive-json-builder#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "moment": "^2.19.2"
+    "moment": "^2.21.0"
   }
 }
